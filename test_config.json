@@ -1,0 +1,33 @@
+{
+  "patterns": [
+    "linear",
+    "even_numbers",
+    "fibonacci_type",
+    "powers_of_2",
+    "modulo_5"
+  ],
+  "model_sizes": {
+    "tiny": {
+      "n_embd": 32,
+      "n_layer": 1,
+      "n_head": 1
+    },
+    "small": {
+      "n_embd": 64,
+      "n_layer": 2,
+      "n_head": 2
+    },
+    "medium": {
+      "n_embd": 128,
+      "n_layer": 4,
+      "n_head": 4
+    },
+    "large": {
+      "n_embd": 256,
+      "n_layer": 6,
+      "n_head": 8
+    }
+  },
+  "target_loss": 0.02,
+  "max_epochs": 20
+}

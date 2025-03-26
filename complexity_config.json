@@ -1,0 +1,17 @@
+{
+  "patterns": [
+    "linear",
+    "even_numbers",
+    "odd_numbers",
+    "fibonacci_type",
+    "quadratic",
+    "powers_of_2"
+  ],
+  "model_sizes": {
+    "tiny": {"n_embd": 64, "n_layer": 4, "n_head": 4},
+    "small": {"n_embd": 128, "n_layer": 6, "n_head": 8},
+    "medium": {"n_embd": 256, "n_layer": 8, "n_head": 16}
+  },
+  "target_loss": 0.06,
+  "max_epochs": 50
+}
