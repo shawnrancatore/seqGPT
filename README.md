@@ -209,7 +209,3 @@ make docker-train-mixtral
 # Generate sequences using Docker
 make docker-generate MODEL=models/best_model.pt
 ```
-
-## License
-
-[MIT License](LICENSE)
